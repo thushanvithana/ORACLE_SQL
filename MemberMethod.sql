@@ -20,7 +20,7 @@ END;
 create table emp of emp_t
 /
 
-    
+
 insert into emp values(emp_t('E123', 'saman', 10000, 2000))
 /
 insert into emp values(emp_t('E124', 'nimal', 20000, 4000))

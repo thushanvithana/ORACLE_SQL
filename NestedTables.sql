@@ -1,5 +1,5 @@
 --Nested tables
-
+-----------------------------------------------------inside table ------------------------------
 -- Define the project type
 create type proj_t as object(
     pno number,
@@ -9,6 +9,8 @@ create type proj_t as object(
 -- Define the project list type
 create type proj_list as table of proj_t;
 
+
+--------------------------------------------------------main table---------------------------------------
 -- Define the employee type
 create type employee_t as object(
     eno number,
