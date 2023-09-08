@@ -5,7 +5,7 @@ create type proj_t as object(
     pno number,
     pname varchar2(15)
 );
-
+  
 -- Define the project list type
 create type proj_list as table of proj_t;
 
